@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/closeActivity"
+        android:icon="@drawable/ic_menu_close"
+        android:orderInCategory="100"
+        android:title="@string/string_close"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/notifymeEvent"
+        android:icon="@drawable/ic_notifications"
+        android:orderInCategory="100"
+        android:title="@string/string_notify"
+        app:showAsAction="always" />
+
+</menu>

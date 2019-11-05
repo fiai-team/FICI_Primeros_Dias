@@ -1,0 +1,270 @@
+<resources>
+    <!-- START Sliding Root Nav -->
+    <string name="srn_ex_no_menu_view">No view for menu provided. You must either call .withMenuView(View) or pass a valid resource id to .withMenuLayout(int)</string>
+    <string name="srn_ex_bad_content_view">Your content view must contain exactly one child. Make sure you call inject() after setContentView().</string>
+    <!-- END Sliding Root Nav -->
+
+    <string name="app_name">FICI: Primeros días</string>
+
+    <string name="string_names">Nombre(s)</string>
+    <string name="string_last_names">Apellidos</string>
+    <string name="string_username">Usuario</string>
+    <string name="string_nick">Apodo</string>
+    <string name="string_block">Bloque</string>
+    <string name="string_group">Brigada</string>
+    <string name="string_is_professor">Profesor</string>
+
+    <string name="string_course">Curso 2018–2019</string>
+    <string name="string_title">Información para estudiantes que son nuevo ingreso en la FICI</string>
+
+    <string name="string_universidad">Universidad</string>
+    <string name="string_pgs">Profesores Guías</string>
+    <string name="string_cons_direcc">Consejo de Dirección FICI</string>
+    <string name="string_exit">Salir</string>
+    <string name="string_about">Acerca de</string>
+    <string name="string_map">Mapa</string>
+    <string name="string_form_inv">Investigación Formativa</string>
+    <string name="string_gtce">Temas de Trabajo Científico Estudiantil</string>
+    <string name="string_map_uci">Mapa UCI</string>
+    <string name="string_events">Actividades</string>
+    <string name="string_uci">Universidad de las Ciencias Informáticas</string>
+    <string name="string_uci_sig">UCI</string>
+    <string name="string_uci_web">http://www.uci.cu</string>
+    <string name="string_uci_web_iconify">{md-language} http://www.uci.cu</string>
+    <string name="string_uci_phone_iconify">{md-phone} (07) 835 8358</string>
+    <string name="string_uci_email_iconify">{md-email} uci@uci.cu</string>
+    <string name="string_fici">Facultad Introductoria de las Ciencias Informáticas</string>
+    <string name="string_fici_sig">FICI</string>
+    <string name="string_fiai">Fábrica Introductoria de Aplicaciones Informáticas</string>
+    <string name="string_fiai_sig">FIAI</string>
+    <string name="string_fici_phone">(07) 837 3737</string>
+
+    <string name="action_settings">Configuración</string>
+    <string name="action_tutorial">Repetir tutorial</string>
+    <string name="string_next">Siguiente</string>
+    <string name="string_skip">Omitir</string>
+    <string name="string_start">Comenzar</string>
+    <string name="string_back">Atras</string>
+    <string name="string_close">Cerrar</string>
+    <string name="string_open">Open</string>
+    <string name="string_notify">Notificar</string>
+
+    <string name="navigation_drawer_open">Abrir menu</string>
+    <string name="navigation_drawer_close">Cerrar menu</string>
+
+    <string name="section_format">Sección: %1$d</string>
+
+    <string name="slide_1_title">Titulo 1</string>
+    <string name="slide_1_desc">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Ut purus elit, vestibulum ut, placerat ac, adipiscing vitae, felis.</string>
+    <string name="slide_2_title">Titulo 2</string>
+    <string name="slide_2_desc">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Ut purus elit, vestibulum ut, placerat ac, adipiscing vitae, felis.</string>
+    <string name="slide_3_title">Titulo 3</string>
+    <string name="slide_3_desc">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Ut purus elit, vestibulum ut, placerat ac, adipiscing vitae, felis.</string>
+
+    <string name="about_desc">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+        Ut purus elit, vestibulum ut, placerat ac, adipiscing vitae, felis.</string>
+
+    <string name="string_conected_future">Conectados al futuro …</string>
+    <string name="string_conected_revolution">conectados a la Revolución</string>
+    <string name="string_warning">Advertencia</string>
+    <string name="main_warning">Sugerimos no eliminar directamente los eventos agregados por la aplicación directamente desde el calendario. Si desea hacerlo hágalo desde la aplicación. No nos responsabilizamos de los problemas que se puedan ocasionar al no seguir nuestra sugerencia.</string>
+
+    <string name="info_uci_0">La Universidad de las Ciencias Informáticas, creada en el año 2002 como parte de la Batalla de Ideas, posee en correspondencia con las normativas del Ministerio de Educación Superior, un modelo de formación disciplinar y no sustentado en un currículo diseñado por competencias, aunque se diferencia con respecto a carreras afines en otras universidades por la presencia de una naciente industria de software y servicios informáticos, que permite la inserción de los estudiantes en proyectos reales durante su formación como ingenieros, desarrollando en él las competencias profesionales que exige el modelo del profesional correspondiente a la carrera de Ingeniería en Ciencias Informáticas.</string>
+    <string name="info_uci_1">En diciembre del 2002, nuestro eterno Comandante visita la Universidad, en esta visita hace estas reflexiones:</string>
+    <string name="reflexion1">"… esta Universidad debe caracterizarse por la gran variedad de formas diferentes de enseñar, de preparar. Debe tener un nivel de flexibilidad alto. Centro Docente experimenta, centro docente-productor …"</string>
+    <string name="reflexion2">"… hay que formar estudiantes poseedores de un número de valores que se pueden inculcar, hay que hecerlos conscientes de que pertenecen a una comunidad científica comprometida …"</string>
+    <string name="reflexion3">"… los estudiantes tienen que ser fuertes políticamente. Hay que formar un espíritu patriótico, hay que formar estudiantes poseedores de un número de valores que se puedan inculcar, hacerlos, hacerlos consientes de que pertenecen a una comunidad científica comprometida …"</string>
+
+    <string name="info_fici_0">Con el propósito de dar respuesta a las exigencias de la universidad, desde que el estudiante ingresa a la Educación Superior, la Universidad de las Ciencias Informáticas, entre sus acciones crea en el curso 2014–2015, la Facultad Introductoria de Ciencias Informáticas (FICI) con los objetivos de:</string>
+    <string name="info_fici_1">A partir del análisis de los objetivos, el objeto de trabajo, campo de acción y modos de actuación del ingeniero en Ciencias Informáticas declarados en el Modelo del Profesional y del objetivo del primer año declarado en el correspondiente al Plan de Estudios D de la Ingeniería en Ciencias Informáticas referido a: "Desarrollar  la vocación y el interés por la carrera, familiarizarse e identificarse con el objeto de trabajo y las funciones profesionales que debe cumplir el ingeniero en ciencias informáticas y argumentar cuál es el papel que le corresponde desempeñar en la economía nacional, la defensa y la sociedad", la misión de la FICI radica en: "Formar estudiantes comprometidos con su patria y con elevado desempeño en su primer año, para fortalecer su vocación e interés por la profesión, a través de la familiarización con la institución y la enseñanza universitaria".</string>
+    <string name="fici_obj_0">{fa-star spin @color/colorPrimaryDark} Fortalecer el trabajo educativo, político e ideológico en los estudiantes.</string>
+    <string name="fici_obj_1">{fa-star spin @color/colorPrimaryDark} Desarrollar una estrategia educativa encaminada a elevar la motivación por la carrera, el desarrollo de habilidades de estudio y del pensamiento lógico, a través de una atención diferenciada e integral.</string>
+    <string name="fici_obj_2">{fa-star spin @color/colorPrimaryDark} Elevar la promoción y eficiencia del primer año.</string>
+
+    <string name="string_title_names">Nombre(s):</string>
+    <string name="string_title_lastname">Apellidos:</string>
+    <string name="string_title_username">Usuario:</string>
+    <string name="string_departament_of">Departamento de</string>
+    <string name="string_programming">Programación:</string>
+    <string name="string_design">Diseño:</string>
+
+    <string name="drawer_drawer">Predeterminado</string>
+    <string name="drawer_sliding_root">Raíz deslizante</string>
+
+    <string name="anim_pager_1">Anti Clock Spin</string>
+    <string name="anim_pager_2">Clock Spin</string>
+    <string name="anim_pager_3">Cube In Depth</string>
+    <string name="anim_pager_4">Cube In Rotation</string>
+    <string name="anim_pager_5">Cube In Scaling</string>
+    <string name="anim_pager_6">Cube Out Depth</string>
+    <string name="anim_pager_7">Cube Out Rotation</string>
+    <string name="anim_pager_8">Cube Out Scaling</string>
+    <string name="anim_pager_9">Depth</string>
+    <string name="anim_pager_10">Fade Out</string>
+    <string name="anim_pager_11">Fan</string>
+    <string name="anim_pager_12">Fidget Spin</string>
+    <string name="anim_pager_13">Gate</string>
+    <string name="anim_pager_14">Swipe</string>
+
+    <string name="rixon">Rixon Rene Riverol Arévalo</string>
+    <string name="jaime">Jaime Alan Gutiérrez Cruz</string>
+    <string name="yanelis">Yanelis Cedeño Bastida</string>
+    <string name="string_libs_open_source">Librerías Open Source</string>
+
+    <string name="string_all">Todos</string>
+    <string name="string_b1">Bloque I</string>
+    <string name="string_b2">Bloque II</string>
+    <string name="string_b3">Bloque III</string>
+    <string name="string_b4">Bloque IV</string>
+    <string name="string_b5">Bloque V</string>
+
+    <string name="string_group1">Brigada FI01</string>
+    <string name="string_group2">Brigada FI02</string>
+    <string name="string_group3">Brigada FI03</string>
+    <string name="string_group4">Brigada FI04</string>
+    <string name="string_group5">Brigada FI05</string>
+    <string name="string_group6">Brigada FI06</string>
+    <string name="string_group7">Brigada FI07</string>
+    <string name="string_group8">Brigada FI08</string>
+    <string name="string_group9">Brigada FI09</string>
+    <string name="string_group10">Brigada FI10</string>
+    <string name="string_group11">Brigada FI11</string>
+    <string name="string_group12">Brigada FI12</string>
+    <string name="string_group13">Brigada FI13</string>
+    <string name="string_group14">Brigada FI14</string>
+    <string name="string_group15">Brigada FI15</string>
+    <string name="string_group16">Brigada FI16</string>
+    <string name="string_group17">Brigada FI17</string>
+    <string name="string_group18">Brigada FI18</string>
+    <string name="string_group19">Brigada FI19</string>
+    <string name="string_group20">Brigada FI20</string>
+    <string name="string_group21">Brigada FI21</string>
+    <string name="string_group22">Brigada FI22</string>
+    <string name="string_group23">Brigada FI23</string>
+    <string name="string_group24">Brigada FI24</string>
+    <string name="string_group25">Brigada FI25</string>
+    <string name="string_group26">Brigada FI26</string>
+    <string name="string_group27">Brigada FI27</string>
+    <string name="string_group28">Brigada FI28</string>
+    <string name="string_group29">Brigada FI29</string>
+    <string name="string_group30">Brigada FI30</string>
+    <string name="string_group31">Brigada FI31</string>
+    <string name="string_group32">Brigada FI32</string>
+    <string name="string_group33">Brigada FI33</string>
+    <string name="string_group34">Brigada FI34</string>
+    <string name="string_group35">Brigada FI35</string>
+    <string name="string_group36">Brigada FI36</string>
+    <string name="string_group37">Brigada FI37</string>
+    <string name="string_group38">Brigada FI38</string>
+    <string name="string_group39">Brigada FI39</string>
+    <string name="string_group40">Brigada FI40</string>
+
+    <!-- BEGIN Preferences -->
+    <string name="setting_general">General</string>
+    <string name="setting_general_desc">DESC_GEN</string>
+
+    <string name="setting_notifications">Notificaciones</string>
+    <string name="setting_notifications_desc">DESC_NOTIF</string>
+
+    <string name="setting_perfil">Perfil</string>
+    <string name="setting_perfil_desc">DESC_PERF</string>
+
+    <string name="setting_notify">Activar/Desactivar recordatorios</string>
+    <string name="setting_timer_reminder">Tiempo predefinido para recordatorios</string>
+    <string name="setting_timer_reminder_desc">DESC_TIMER</string>
+    <string name="time_prompt">Escoja el tiempo de recordatorio</string>
+    <string name="time_reminder_default">60</string>
+
+    <string name="setting_drawer_style">Estilo del menú principal</string>
+    <string name="setting_drawer_style_desc">DESC_DRAWER</string>
+    <string name="drawer_style_prompt">Escoja el estilo del menú</string>
+    <string name="drawer_style_default">0</string>
+
+    <string name="setting_anim_pager">Animación de páginas</string>
+    <string name="setting_anim_pager_desc">DESC_PAGER</string>
+    <string name="anim_pager_prompt">Escoja la animación de las páginas</string>
+    <string name="anim_pager_default">6</string>
+
+    <string name="setting_filter_by">Filtrar eventos por</string>
+    <string name="setting_filter_by_desc">DESC_FILTER_BY</string>
+    <string name="filter_by_prompt">Filtrar por</string>
+    <string name="filter_by_default">0</string>
+
+    <string name="setting_filter_by_bloque">Bloque</string>
+    <string name="setting_filter_by_bloque_desc">DESC_PAGER</string>
+    <string name="bloque_prompt">Escoja el bloque</string>
+    <string name="filter_by_bloque_default">0</string>
+
+    <string name="setting_filter_by_brigada">Bloque</string>
+    <string name="setting_filter_by_brigada_desc">DESC_PAGER</string>
+    <string name="brigada_prompt">Escoja la brigada</string>
+    <string name="filter_by_brigada_default">0</string>
+
+    <string name="setting_names">Nombre(s)</string>
+    <string name="setting_names_def">Estudiante</string>
+    <string name="setting_names_desc">DESC_NAME</string>
+    <string name="setting_names_prompt">PROMPT_NAME</string>
+
+    <string name="setting_last_names">Apellidos</string>
+    <string name="setting_last_names_def">Estudiante</string>
+    <string name="setting_last_names_desc">DESC_LAST_NAME</string>
+    <string name="setting_last_names_prompt">PROMPT_LAST_NAME</string>
+
+    <string name="setting_username">Usuario</string>
+    <string name="setting_username_def">profesor</string>
+    <string name="setting_username_desc">DESC_USERNAME</string>
+    <string name="setting_username_prompt">PROMPT_USERNAME</string>
+
+    <string name="setting_block">Bloque</string>
+    <string name="block_default">@string/string_b1</string>
+    <string name="setting_block_desc">DESC_BLOCK</string>
+    <string name="setting_block_prompt">PROMPT_BLOCK</string>
+
+    <string name="setting_group">Brigada</string>
+    <string name="setting_group_def">0</string>
+    <string name="setting_group_desc">DESC_GROUP</string>
+    <string name="setting_group_prompt">PROMPT_GROUP</string>
+
+    <string name="setting_is_professor">Profesor</string>
+
+    <string name="setting_nick">Apodo</string>
+    <string name="setting_nick_def"></string>
+    <string name="setting_nick_desc">DESC_NICK</string>
+    <string name="setting_nick_prompt">PROMPT_NICK</string>
+
+    <string name="pref_is_first_time_launch">IsFirstTimeLaunch</string>
+    <string name="pref_default_reminder_time">DefaultReminderTime</string>
+    <string name="pref_drawer_style">DrawerStyle</string>
+    <string name="pref_pager_anim">pager_anim</string>
+    <string name="pref_notify">notify</string>
+    <string name="pref_events_filter_by">EventsFilterBy</string>
+    <string name="pref_events_filter">EventsFilter</string>
+    <string name="pref_perfil_names">PerfilNames</string>
+    <string name="pref_perfil_last_names">PerfilLastNames</string>
+    <string name="pref_perfil_block">PerfilBlock</string>
+    <string name="pref_perfil_group">PerfilGroup</string>
+    <string name="pref_perfil_user_nick">PerfilUserNick</string>
+    <string name="pref_perfil_is_professor">PerfilIsProfessor</string>
+    <!-- END Preferences -->
+
+    <string name="before">{md-navigate-before}</string>
+    <string name="next">{md-navigate-next}</string>
+    <string name="settings">{md-settings}</string>
+    <string name="notifications">{md-notifications}</string>
+    <string name="notifications_active">{md-notifications-active}</string>
+    <string name="notifications_none">{md-notifications-none}</string>
+    <string name="notifications_off">{md-notifications-off}</string>
+    <string name="notifications_paused">{md-notifications-paused}</string>
+
+    <string name="string_tutorial_2">Aquí tendrás un resumen sobre la Universidad de las Ciencias Informáticas así como información de contacto de la misma.</string>
+    <string name="string_tutorial_3">Desde aquí accederás a información que debes conocer sobre la Facultad Introductoria de Ciencias Informáticas.</string>
+    <string name="string_tutorial_4">Aquí encontrarás información sobre el Consejo de Dirección de nuestra facultad.</string>
+    <string name="string_tutorial_5">Aquí podrás conocer a los profesores guías de todas las brigadas de nuestra facultad.</string>
+    <string name="string_tutorial_6_1">Este aspecto te permitirá conocer las actividades que se realizarán en la semana de familiarización. Para ver más detalles de las actividades solo debes seleccionarla.</string>
+    <string name="string_tutorial_6_2">Los detalles incluyen: Fecha ({md-event @color/colorPrimaryDark}), Hora ({md-access-time @color/colorPrimaryDark}), Lugar ({md-place @color/colorPrimaryDark}) y Participantes ({md-people @color/colorPrimaryDark}).</string>
+    <string name="string_tutorial_6_3">Si ves {md-notifications-off @color/colorAccent} no recibirás la notificación de la actividad, para recibir la notificación pulsa sobre {md-notifications @color/colorAccent} y cambiará a {md-notifications-active @color/colorAccent}.</string>
+    <string name="string_tutorial_6_4">Para regresar desliza hacia los laterales y hacia arriba desde los bordes respectivos, pulsa {md-clear @color/colorAccent} en la barra de acciones o el botón "Atrás" de tu dispositivo.</string>
+    <string name="string_tutorial_7">Desde aquí accederás al mapa de la universidad con los lugares (señalados) que conocer.</string>
+    <string name="string_tutorial_8">Este aspecto te permitirá conocer los temas de investigación presentes en la facultad. Al seleccionar alguno podrás ver información de los profesores vinculado a dichos Grupos de Trabajo de Investigación Estudiantil.</string>
+
+</resources>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/tutorialContainer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/md_yellow_900"
+    tools:context=".tutorial.TutorialFragment">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_21sdp"
+        android:gravity="center"
+        android:padding="@dimen/_21sdp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@color/md_text_white"
+            android:textSize="@dimen/_24sdp"
+            android:text="Sin más, disfruta de tu primer año en la Facultad Introductoria de las Ciencias Informáticas" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_5sdp" />
+
+        <ImageView
+            android:id="@+id/viewAvatarTutor"
+            android:layout_width="@dimen/_120sdp"
+            android:layout_height="@dimen/_120sdp"
+            android:layout_gravity="top|center_horizontal"
+            android:src="@drawable/fenix_small"
+            android:tint="@color/md_orange_A100"
+            android:layout_marginTop="@dimen/_9sdp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|bottom"
+        android:gravity="right"
+        android:paddingLeft="@dimen/_30sdp"
+        android:paddingTop="@dimen/_15sdp"
+        android:paddingRight="@dimen/_15sdp"
+        android:paddingBottom="@dimen/_72sdp"
+        android:textColor="@color/md_text_white_87"
+        android:textSize="@dimen/_15sdp"
+        android:text="Podrás repetir este tutorial en cualquier momento." />
+
+</FrameLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditTextPreference
+        android:key="@string/pref_perfil_names"
+        android:title="@string/setting_names"
+        android:summary="@string/setting_names_desc"
+        android:defaultValue="@string/setting_names_def"
+        android:dialogTitle="@string/setting_names_prompt" />
+
+    <EditTextPreference
+        android:key="@string/pref_perfil_last_names"
+        android:title="@string/setting_last_names"
+        android:summary="@string/setting_last_names_desc"
+        android:dialogTitle="@string/setting_last_names_prompt" />
+
+    <ListPreference
+        android:key="@string/pref_perfil_block"
+        android:title="@string/setting_block"
+        android:summary="@string/setting_block_desc"
+        android:entries="@array/array_blocks"
+        android:entryValues="@array/array_blocks_values"
+        android:dialogTitle="@string/setting_block_prompt"
+        android:defaultValue="@string/block_default" />
+
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="@string/pref_perfil_is_professor"
+        android:title="@string/setting_is_professor" />
+
+    <EditTextPreference
+        android:dependency="@string/pref_perfil_is_professor"
+        android:key="@string/pref_perfil_user_nick"
+        android:title="@string/setting_username"
+        android:summary="@string/setting_username_desc"
+        android:defaultValue="@string/setting_username_def"
+        android:dialogTitle="@string/setting_username_prompt" />
+
+</PreferenceScreen>

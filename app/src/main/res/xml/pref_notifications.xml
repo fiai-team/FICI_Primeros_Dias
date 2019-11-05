@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="@string/pref_notify"
+        android:title="@string/setting_notify" />
+
+    <ListPreference
+        android:dependency="@string/pref_notify"
+        android:key="@string/pref_default_reminder_time"
+        android:title="@string/setting_timer_reminder"
+        android:entries="@array/time_reminder"
+        android:entryValues="@array/time_reminder_values"
+        android:dialogTitle="@string/time_prompt"
+        android:defaultValue="@string/time_reminder_default"
+        android:dialogIcon="@drawable/ic_timer_alt"/>
+
+</PreferenceScreen>

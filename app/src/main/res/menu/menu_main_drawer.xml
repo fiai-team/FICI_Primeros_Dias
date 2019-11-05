@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item android:id="@+id/navUCI"
+            android:icon="@drawable/ic_uci"
+            android:title="@string/string_universidad"
+            android:checked="true" />
+
+        <item android:id="@+id/navFICI"
+            android:icon="@drawable/ic_fici_2"
+            android:title="@string/string_fici_sig"/>
+
+        <item android:id="@+id/navDirection"
+            android:icon="@drawable/ic_consejo_direccion"
+            android:title="@string/string_cons_direcc"/>
+
+        <item android:id="@+id/navPGs"
+            android:icon="@drawable/ic_profesor"
+            android:title="@string/string_pgs" />
+
+        <item android:id="@+id/navEvents"
+            android:icon="@drawable/ic_actividades"
+            android:title="@string/string_events" />
+
+        <item android:id="@+id/navMaps"
+            android:icon="@drawable/ic_marcador"
+            android:title="@string/string_map" />
+
+        <item android:id="@+id/navGTCE"
+            android:icon="@drawable/ic_gtce"
+            android:title="@string/string_form_inv" />
+
+        <item android:id="@+id/navAbout"
+            android:icon="@drawable/ic_about_us"
+            android:title="@string/string_about" />
+
+        <item android:id="@+id/navExit"
+            android:icon="@drawable/ic_salir"
+            android:title="@string/string_exit" />
+
+    </group>
+
+</menu>

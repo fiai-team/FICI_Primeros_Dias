@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ListPreference
+        android:key="@string/pref_drawer_style"
+        android:title="@string/setting_drawer_style"
+        android:summary="@string/setting_drawer_style_desc"
+        android:entries="@array/drawer_styles"
+        android:entryValues="@array/drawer_styles_values"
+        android:dialogTitle="@string/drawer_style_prompt"
+        android:defaultValue="@string/drawer_style_default"
+        android:dialogIcon="@drawable/ic_drawer_style_alt" />
+
+    <ListPreference
+        android:key="@string/pref_pager_anim"
+        android:title="@string/setting_anim_pager"
+        android:summary="@string/setting_anim_pager_desc"
+        android:entries="@array/pager_anim"
+        android:entryValues="@array/pager_anim_values"
+        android:dialogTitle="@string/anim_pager_prompt"
+        android:defaultValue="@string/anim_pager_default"
+        android:dialogIcon="@drawable/ic_anim_pager_alt"/>
+
+</PreferenceScreen>

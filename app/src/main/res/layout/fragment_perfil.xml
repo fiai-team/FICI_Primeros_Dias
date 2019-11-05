@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/_20sdp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal">
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/tilNames"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/colorPrimaryDark" >
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/tieNames"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/colorPrimaryDark"
+                android:hint="@string/string_names"
+                android:inputType="textPersonName"
+                android:maxLines="1"
+                android:textColorHint="@color/colorAccent"
+                android:textColorLink="@color/colorAccent" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/tilLastNames"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:textColorHint="@color/colorPrimaryDark" >
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/tieLastNames"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/colorPrimaryDark"
+                android:hint="@string/string_last_names"
+                android:inputType="textPersonName"
+                android:maxLines="1"
+                android:textColorHint="@color/colorAccent"
+                android:textColorLink="@color/colorAccent" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/tilUserNick"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:textColorHint="@color/colorPrimaryDark" >
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/tieUserNick"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/colorPrimaryDark"
+                android:hint="@string/string_username"
+                android:inputType="textPersonName"
+                android:maxLines="1"
+                android:textColorHint="@color/colorAccent"
+                android:textColorLink="@color/colorAccent" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <CheckBox
+            android:id="@+id/cbIsProfesor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:text="@string/string_is_professor"
+            android:textSize="@dimen/_12sdp" />
+
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>

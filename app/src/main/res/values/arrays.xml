@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <array name="array_text_color">
+        <item>@color/md_indigo_100</item>
+        <item>@color/md_indigo_100</item>
+        <item>@color/md_indigo_100</item>
+        <item>@color/md_indigo_100</item>
+        <item>@color/md_indigo_100</item>
+        <item>@color/md_indigo_100</item>
+        <item>@color/md_indigo_100</item>
+        <item>@color/md_indigo_100</item>
+        <item>@color/md_yellow_200</item>
+    </array>
+
+    <array name="array_dot_active">
+        <item>@color/md_orange_900</item>
+        <item>@color/md_orange_900</item>
+        <item>@color/md_orange_900</item>
+        <item>@color/md_orange_900</item>
+        <item>@color/md_orange_900</item>
+        <item>@color/md_orange_900</item>
+        <item>@color/md_orange_900</item>
+        <item>@color/md_orange_900</item>
+        <item>@color/colorPrimaryDark</item>
+    </array>
+
+    <array name="array_dot_inactive">
+        <item>@color/md_indigo_400</item>
+        <item>@color/md_indigo_200</item>
+        <item>@color/md_indigo_200</item>
+        <item>@color/md_indigo_200</item>
+        <item>@color/md_indigo_200</item>
+        <item>@color/md_indigo_200</item>
+        <item>@color/md_indigo_200</item>
+        <item>@color/md_indigo_200</item>
+        <item>@color/md_yellow_300</item>
+    </array>
+
+    <string-array name="time_reminder">
+        <item>0 minutos</item>
+        <item>1 minuto</item>
+        <item>5 minutos</item>
+        <item>10 minutos</item>
+        <item>15 minutos</item>
+        <item>20 minutos</item>
+        <item>25 minutos</item>
+        <item>30 minutos</item>
+        <item>45 minutos</item>
+        <item>1 hora</item>
+        <item>2 horas</item>
+        <item>3 horas</item>
+        <item>12 horas</item>
+        <item>24 horas</item>
+        <item>2 días</item>
+    </string-array>
+
+    <string-array name="time_reminder_values">
+        <item>0</item>
+        <item>1</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+        <item>45</item>
+        <item>60</item>
+        <item>120</item>
+        <item>180</item>
+        <item>720</item>
+        <item>1440</item>
+        <item>2880</item>
+    </string-array>
+
+    <string-array name="drawer_styles">
+        <item>@string/drawer_drawer</item>
+        <item>@string/drawer_sliding_root</item>
+    </string-array>
+
+    <string-array name="drawer_styles_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+
+    <string-array name="pager_anim">
+        <item>@string/anim_pager_3</item>
+        <item>@string/anim_pager_4</item>
+        <item>@string/anim_pager_5</item>
+        <item>@string/anim_pager_6</item>
+        <item>@string/anim_pager_7</item>
+        <item>@string/anim_pager_8</item>
+        <item>@string/anim_pager_9</item>
+        <item>@string/anim_pager_10</item>
+        <item>@string/anim_pager_11</item>
+        <item>@string/anim_pager_12</item>
+        <item>@string/anim_pager_13</item>
+        <item>@string/anim_pager_14</item>
+    </string-array>
+
+    <string-array name="pager_anim_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+    </string-array>
+
+    <string-array name="filter_by">
+        <item>@string/string_block</item>
+        <item>@string/string_group</item>
+    </string-array>
+
+    <string-array name="filter_by_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+
+    <string-array name="array_filter_blocks">
+        <item>@string/string_all</item>
+        <item>@string/string_b1</item>
+        <item>@string/string_b2</item>
+        <item>@string/string_b3</item>
+        <item>@string/string_b4</item>
+        <item>@string/string_b5</item>
+    </string-array>
+
+    <string-array name="array_filter_blocks_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+    <string-array name="array_blocks">
+        <item>@string/string_b1</item>
+        <item>@string/string_b2</item>
+        <item>@string/string_b3</item>
+        <item>@string/string_b4</item>
+        <item>@string/string_b5</item>
+    </string-array>
+
+    <string-array name="array_blocks_values">
+        <item>@string/string_b1</item>
+        <item>@string/string_b2</item>
+        <item>@string/string_b3</item>
+        <item>@string/string_b4</item>
+        <item>@string/string_b5</item>
+    </string-array>
+
+    <string-array name="groups">
+        <item>@string/string_group1</item>
+        <item>@string/string_group2</item>
+        <item>@string/string_group3</item>
+        <item>@string/string_group4</item>
+        <item>@string/string_group5</item>
+        <item>@string/string_group6</item>
+        <item>@string/string_group7</item>
+        <item>@string/string_group8</item>
+        <item>@string/string_group9</item>
+        <item>@string/string_group10</item>
+        <item>@string/string_group11</item>
+        <item>@string/string_group12</item>
+        <item>@string/string_group13</item>
+        <item>@string/string_group14</item>
+        <item>@string/string_group15</item>
+        <item>@string/string_group16</item>
+        <item>@string/string_group17</item>
+        <item>@string/string_group18</item>
+        <item>@string/string_group19</item>
+        <item>@string/string_group20</item>
+        <item>@string/string_group21</item>
+        <item>@string/string_group22</item>
+        <item>@string/string_group23</item>
+        <item>@string/string_group24</item>
+        <item>@string/string_group25</item>
+        <item>@string/string_group26</item>
+        <item>@string/string_group27</item>
+        <item>@string/string_group28</item>
+        <item>@string/string_group29</item>
+        <item>@string/string_group30</item>
+        <item>@string/string_group31</item>
+        <item>@string/string_group32</item>
+        <item>@string/string_group33</item>
+        <item>@string/string_group34</item>
+        <item>@string/string_group35</item>
+        <item>@string/string_group36</item>
+        <item>@string/string_group37</item>
+        <item>@string/string_group38</item>
+        <item>@string/string_group39</item>
+        <item>@string/string_group40</item>
+    </string-array>
+
+    <string-array name="ld_activityScreenTitles">
+        <item>@string/string_universidad</item>
+        <item>@string/string_fici_sig</item>
+        <item>@string/string_cons_direcc</item>
+        <item>@string/string_pgs</item>
+        <item>@string/string_events</item>
+        <item>@string/string_map</item>
+        <item>@string/string_form_inv</item>
+        <item>@string/string_about</item>
+        <item />
+        <item>@string/string_exit</item>
+    </string-array>
+
+    <array name="ld_activityScreenIcons">
+        <item>@drawable/ic_uci</item>
+        <item>@drawable/ic_fici_2</item>
+        <item>@drawable/ic_consejo_direccion</item>
+        <item>@drawable/ic_profesor</item>
+        <item>@drawable/ic_actividades</item>
+        <item>@drawable/ic_marcador</item>
+        <item>@drawable/ic_gtce</item>
+        <item>@drawable/ic_about_us</item>
+        <item>0</item>
+        <item>@drawable/ic_salir</item>
+    </array>
+
+</resources>

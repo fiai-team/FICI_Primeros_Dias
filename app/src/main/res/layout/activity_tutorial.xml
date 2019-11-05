@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:wave="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context=".tutorial.TutorialActivity">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vpTutorial"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <com.john.waveview.WaveView
+        android:id="@+id/wave_view"
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/transparent"
+        wave:above_wave_color="#000000"
+        wave:blow_wave_color="#000000"
+        wave:progress="13"
+        wave:wave_height="large"
+        wave:wave_hz="fast"
+        wave:wave_length="large" />
+
+    <LinearLayout
+        android:id="@+id/layoutDots"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_30sdp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/_25sdp"
+        android:gravity="center"
+        android:orientation="horizontal" />
+
+    <View
+        android:id="@+id/viewLine"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_3sdp"
+        android:alpha=".5"
+        android:layout_above="@id/layoutDots"
+        android:background="@color/colorPrimaryLight" />
+
+    <Button
+        android:id="@+id/bNextTutorial"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/_5sdp"
+        android:background="@null"
+        android:text="@string/string_next"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryLight" />
+
+    <Button
+        android:id="@+id/bPrevTutorial"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="@null"
+        android:visibility="invisible"
+        android:text="@string/string_back"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryLight" />
+
+    <Button
+        android:id="@+id/bSkipTutorial"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:background="@null"
+        android:text="@string/string_skip"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryLight" />
+
+</RelativeLayout>
